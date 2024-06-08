@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--the video-->
+    <video width="320" height="240" controls>
+        <source src="movie.mp4" type="video.mp4">
+    </video>
+
+    <!--the audio-->
+    <audio controls>
+        <source src = "path.mp3">
+    </audio>
+
+    <!--the table-->
+    <table>
+        <!--co rowspan de hop nhat nhieu cot-->
+        <thead>
+            <th>hang 1</th>
+            <th>hang 1</th>
+        </thead>
+        <tbody>
+            <td>hang 2</td>
+            <td>hang 2</td>
+        </tbody>
+    </table>
+
+    <!-- 
+        <table></table>: xác định một bảng
+        <thead></thead>: phần dầu của bảng
+        <tbody></tbody>: phần thân của bảng
+        <tr></tr>: xác định một hàng
+        <th></th>: xác định tiêu đề của bảng
+        <td></td>: xác định dữ liệu ô của bảng 
+    -->
+    <ul>
+        <li> mục 1</li>
+        <li> mục 2</li>
+    </ul>
+    <ol>
+        <li> mục 1</li>
+        <li> mục 2</li>
+    </ol>
+
+    <!--form-->
+    <form
+        action="http://www.w3chools.com/action_page.php"
+        target="_blank"
+        method="get" 
+        autocomplete="on"
+    >
+    <!--method:
+        -get: noi du lieu vao bieu mau url
+        -post: khong noi du lieu vao bieu mau url
+        -neu khong de, mac dinh se la get
+    -->
+    <label for="fullname">Ho ten</label>
+    <br />
+    <input type="text" id="fullname" name="full_name" />
+    <br />
+    <label for="email">Email</label>
+    <br />
+    <input type="email" id="email" name="email"/>
+    <br />
+    <!--thuoc tinh for cua label phai bang id cua element-->
+    
+    <!--the lua chon-->
+    <select id="color" name="color">
+        <option value="yellow">Vang</option>
+        <option value="red">Do</option>
+    </select>
+    <br />
+    <br />
+    <input type="submit" value="Gui"/>
+
+    </form>
+
+    <!--the textarea dung de nhap nhieu dong-->
+    <label for="note">Ghi chu</label>
+    <br />
+    <textarea id="note" name="note"></textarea>
+    <!--
+        cac type cua input:
+            -text
+            -email
+            -password
+            -number
+            -date
+            -time
+            -datetime-local
+            -file
+            -checkbox
+            -radio: chon mot lua chon duy nhat
+    -->
+</body>
+</html>

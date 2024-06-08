@@ -1,0 +1,75 @@
+
+/*import font chữ, cách lấy xem trong ảnh font đã chup*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+/* cu phap
+selector{
+    property: value;
+}
+selector: bộ chọn, chọn ra phần tử html muốn css
+property: thuộc tính
+value: giá trị thuộc tính  */
+
+
+/* bộ chọn theo tên phần tử */
+h1{
+    color: red;
+    background: #5989D7;
+}
+*{
+    text-align: center;
+}
+
+
+/* bộ chọn theo id*/
+#the2{
+    color:aqua;
+}
+
+/* bộ chọn theo class */
+.green{
+    color:green;
+    /*display: inline;*/
+}
+
+/* Bộ chọn theo nhóm */
+h3, h4, h5{
+    color:blueviolet;
+}
+
+
+/* Boder : Đường viền bao quanh parding(phần đệm) và nội dung
+Dùng để bọc phần tử
+Một số kiểu boder:
+    dotted: đường viền chấm
+    dashed: đường viền nét đứt
+    solid: đường viền nét liền */
+.box{
+    border: 2px solid #0435D7;
+    padding: 20px 30px 20px 30px; /*khoảng cách đến các lề */
+    margin-right: 50px; /* khoảng cách giữa 2 box*/
+    background: rgb(132, 113, 139);
+    color: aliceblue;
+    font-family: "Open Sans", sans-serif; /*kiểu chữ*/
+    font-style: italic; /*italic: in nghiêng, normal: bthg*/
+    font-weight: 4000; /*độ dày chữ*/ 
+    font-size: 20px;
+    display: inline-block;
+}
+
+/* possion : vi tri */
+
+/* text-aligin: dùng để căn lề ngang cho văn bản
+    -left: căn trái
+    -right: căn phải
+    -center: căn giữa
+    -justify: căn đều hai bên */
+
+/* text-transform: định dạng chữ
+    -uppercase: viết hoa tất cả
+    -capitalize: viết hoa chữ cái đầu
+    -lowercase: viết thường tất cả */
+
+
