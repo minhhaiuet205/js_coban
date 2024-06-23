@@ -39,16 +39,17 @@ buttonResetMode.addEventListener("click", () => {
 // a = [...a, ...b];
 // console.log(a);
 
-var a = {
-    ten : "hai",
-    phone : "032322"
-}
-var b = {
-    diachi : "hung yen"
-}
-a = {
-    ...a,
-    ...b
-}
-console.log(a);
+
+// var a = {
+//     ten : "hai",
+//     phone : "032322"
+// }
+// var b = {
+//     diachi : "hung yen"
+// }
+// a = {
+//     ...a,
+//     ...b
+// }
+// console.log(a);
 
