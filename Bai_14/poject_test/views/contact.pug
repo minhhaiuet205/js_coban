@@ -1,0 +1,8 @@
+extends layouts/default.pug
+include mixins/box-head.pug
+block main 
+  div(class="box-head")
+    //- h1(class="inner-title") Trang lien he 
+    //- div(class="inner-desc") Đây là đoạn mô tả trang liên hệ
+
+    +box-head("Trang contact", "Day la trang contact")
