@@ -35,6 +35,15 @@
 // }
 
 
+
+// các truy vấn với querySelector
+querySelector("[button-submit]") // thuộc tính tự định nghĩa
+querySelector("#form-change-permissions") // theo id
+querySelector("input") // theo thẻ html
+querySelector(".class")// theo class
+
+
+
 // 3.1.1
 // const innerHTMLH2_01 = document.querySelector("#h2-01").innerHTML;
 // console.log(innerHTMLH2_01);
